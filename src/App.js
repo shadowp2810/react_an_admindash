@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import ReactDOM from "react-dom";
 
-import SideNavBar from "./components/sidenavbar/SideNavBar";
-import TopNavBar from "./components/topnavbar/TopNavBar";
 import "./App.css";
+import TopNavBar from "./components/topnavbar/TopNavBar";
+import SideNavBar from "./components/sidenavbar/SideNavBar";
+import HomePage from "./pages/homepage/HomePage";
 
 function App() {
   const [width, setWidth] = useState(window.innerWidth);
@@ -20,7 +21,7 @@ function App() {
       <TopNavBar />
       <div className="container">
         <SideNavBar width={width} />
-        <div className="otherstuff">Other Stuff</div>
+        <HomePage />
       </div>
     </div>
   );
