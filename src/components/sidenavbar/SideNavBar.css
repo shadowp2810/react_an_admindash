@@ -24,6 +24,7 @@
   height: calc(100vh - 50px);
   background-color: #ff86bf;
   position: sticky;
+  border-top: solid #ff86bf 10px;
 }
 
 .sidenavbarWrapper {
@@ -65,6 +66,7 @@
     padding: 0px;
   }
   .sidenavbar {
+    border-top: solid #ff86bf 0px;
   }
 
   .sidenavbarWrapper {
