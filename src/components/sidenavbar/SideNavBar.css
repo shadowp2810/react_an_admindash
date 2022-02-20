@@ -1,0 +1,111 @@
+.custom-select {
+  width: 100px;
+  background-color: #ff86bf;
+  border: solid #ff86bf;
+  border-radius: 25px;
+  outline: 0;
+  height: 50px;
+  margin-top: 2.5px;
+  position: absolute;
+  left: 0px;
+  font-size: 0px;
+  background: transparent;
+  border: transparent;
+  color: transparent;
+}
+
+.custom-select-div {
+  display: flex;
+  padding: 0px 2.5px;
+}
+
+.sidenavbar {
+  flex: 1;
+  height: calc(100vh - 50px);
+  background-color: #ff86bf;
+  position: sticky;
+}
+
+.sidenavbarWrapper {
+}
+
+.sidenavbarMenu {
+  margin-bottom: 10px;
+}
+
+.sidenavbarTitle {
+  font-size: 13px;
+}
+
+.sidenavbarList {
+  list-style: none;
+  padding: 5px;
+}
+
+.sidenavbarListItem {
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.sidenavbarListItem.active,
+.sidenavbarListItem:hover {
+  background-color: aliceblue;
+}
+
+.sidenavbarIcon {
+  margin-right: 5px;
+  font-size: 20px !important;
+}
+
+@media screen and (max-width: 1024px) {
+  ul {
+    padding: 0px;
+  }
+  .sidenavbar {
+  }
+
+  .sidenavbarWrapper {
+    /* display: flex;
+    flex-direction: row; */
+  }
+
+  .sidenavbarTitleDiv {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sidenavbarTitle {
+    font-size: 18px;
+    padding: 0px 10px;
+  }
+
+  .sidenavbarMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0px;
+    /* position: relative; */
+  }
+  .sidenavbarList {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    position: sticky;
+  }
+  .sidenavbarListItem {
+    display: flex;
+    flex-direction: row;
+    border: solid #121212 2px;
+    padding: 5px;
+    border-radius: 25px;
+    margin: 10px;
+  }
+
+  .sidenavbarIcon {
+    margin-right: 0px;
+    font-size: 25px !important;
+  }
+}
