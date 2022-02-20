@@ -21,7 +21,7 @@ function App() {
       <TopNavBar />
       <div className="container">
         <SideNavBar width={width} />
-        <HomePage />
+        <HomePage width={width} />
       </div>
     </div>
   );

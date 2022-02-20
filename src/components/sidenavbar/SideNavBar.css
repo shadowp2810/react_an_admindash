@@ -21,7 +21,7 @@
 
 .sidenavbar {
   flex: 1;
-  height: calc(100vh - 50px);
+  height: calc(100vh - 60px);
   background-color: #ff86bf;
   position: sticky;
   border-top: solid #ff86bf 10px;
@@ -36,6 +36,7 @@
 
 .sidenavbarTitle {
   font-size: 13px;
+  margin-left: 5px;
 }
 
 .sidenavbarList {
@@ -82,6 +83,7 @@
   .sidenavbarTitle {
     font-size: 18px;
     padding: 0px 10px;
+    margin-left: 0px;
   }
 
   .sidenavbarMenu {

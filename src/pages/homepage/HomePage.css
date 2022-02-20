@@ -1,11 +1,12 @@
 .homepage {
   flex: 4;
-  background-color: beige;
-  border-top: solid beige 30px;
+  background-color: #f5f5dc;
+  border-top: solid #f5f5dc 30px;
 }
 
 @media screen and (max-width: 1024px) {
   .homepage {
     border-top: solid beige 5px;
+    border-bottom: solid beige 15px;
   }
 }
