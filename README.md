@@ -1,3 +1,14 @@
+# A React Dashboard (mobile responsive)
+
+![vidly](demo/demo-desktop.png)
+## Mobile View
+![vidly](demo/demo-mobile1.png) 
+![vidly](demo/demo-mobile2.png)
+<br>
+Recharts library for data visualization
+
+---------------------------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
