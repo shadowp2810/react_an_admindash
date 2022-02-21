@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./SpotlightedInfo.css";
-import { ArrowDownward, ArrowUpward } from "@mui/icons-material";
+import { ArrowUpward } from "@mui/icons-material";
 
 function SpotlightedInfo(props) {
   return (
