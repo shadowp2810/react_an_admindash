@@ -43,7 +43,6 @@
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
   right: 0px;
   border-radius: 5px;
   border: solid #121212;
@@ -69,9 +68,11 @@
   display: block;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .topnavbar {
     border-bottom-right-radius: 0px;
+    z-index: 20;
+    box-shadow: 0 0px 0px 0 rgba(31, 38, 135, 0.37);
   }
   .topnavbarIconContainer {
     right: -10px;
