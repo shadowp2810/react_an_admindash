@@ -58,6 +58,7 @@
   .spotlighted {
     flex-direction: column;
     overflow-y: scroll;
+    max-width: 375px;
   }
   .spotlightedItem {
     margin-top: 20px;

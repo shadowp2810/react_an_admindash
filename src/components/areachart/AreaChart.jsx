@@ -11,7 +11,7 @@ import {
 } from "recharts";
 
 function AreaChart({ width, title, data, xname, dataKey, dataKey2 = null }) {
-  let aspect = width > 1024 ? 4 / 1 : 0.8 / 1;
+  let aspect = width > 1024 ? 4 / 1 : 1.5 / 1;
 
   return (
     <div className="areachart">

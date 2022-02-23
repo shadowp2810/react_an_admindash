@@ -12,13 +12,13 @@ function TopNavBar(props) {
         <div className="topnavRight">
           <div className="topnavbarIconContainer">
             <Language />
-            <div class="dropdown-content">
+            <div className="dropdown-content">
               <p>English</p>
             </div>
           </div>
           <div className="topnavbarIconContainer">
             <Settings />
-            <div class="dropdown-content">
+            <div className="dropdown-content">
               <p>Lorem</p>
               <p>Ipsum</p>
               <p>Dolor</p>

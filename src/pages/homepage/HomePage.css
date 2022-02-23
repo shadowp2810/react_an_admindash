@@ -4,9 +4,20 @@
   border-top: solid #fdfbfe 30px;
 }
 
+.homepageWidgets {
+  display: flex;
+  margin: 20px;
+}
+
 @media screen and (max-width: 1024px) {
   .homepage {
     border-top: solid #fdfbfe 5px;
     border-bottom: solid #fdfbfe 15px;
+  }
+  .homepageWidgets {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding-top: 20px;
   }
 }

@@ -20,13 +20,16 @@
   .areachart {
     margin-top: 20px;
     padding: 10px;
-    height: 450px;
+    padding-top: 20px;
+    /* height: 450px; */
     border-radius: 10px;
     -webkit-box-shadow: 0px 8px 23px 2px rgba(0, 0, 0, 0.14);
     -moz-box-shadow: 0px 8px 23px 2px rgba(0, 0, 0, 0.14);
     box-shadow: 0px 8px 23px 2px rgba(0, 0, 0, 0.14);
+    max-width: 650px;
+    /* max-height: 500px; */
   }
-  .responsivecontainer {
-    height: 200px;
+  .areachartTitleDiv {
+    margin-left: 0px;
   }
 }
