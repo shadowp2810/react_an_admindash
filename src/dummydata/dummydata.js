@@ -72,3 +72,66 @@ export const usersData = [
     amt: 2100,
   },
 ];
+
+export const userRows = [
+  {
+    id: 1,
+    username: "John Snow",
+    avatar: `https://randomuser.me/api/portraits/med/men/${Math.floor(
+      Math.random() * 100
+    )}.jpg`,
+    email: "jon@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 2,
+    username: "Cersei Lannister",
+    avatar: `https://randomuser.me/api/portraits/med/men/${Math.floor(
+      Math.random() * 100
+    )}.jpg`,
+    email: "jon@gmail.com",
+    status: "active",
+    transaction: "$140.00",
+  },
+  {
+    id: 3,
+    username: "John Snow",
+    avatar: `https://randomuser.me/api/portraits/med/men/${Math.floor(
+      Math.random() * 100
+    )}.jpg`,
+    email: "jon@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 4,
+    username: "Cersei Lannister",
+    avatar: `https://randomuser.me/api/portraits/med/men/${Math.floor(
+      Math.random() * 100
+    )}.jpg`,
+    email: "jon@gmail.com",
+    status: "active",
+    transaction: "$140.00",
+  },
+  {
+    id: 5,
+    username: "John Snow",
+    avatar: `https://randomuser.me/api/portraits/med/men/${Math.floor(
+      Math.random() * 100
+    )}.jpg`,
+    email: "jon@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 6,
+    username: "Cersei Lannister",
+    avatar: `https://randomuser.me/api/portraits/med/men/${Math.floor(
+      Math.random() * 100
+    )}.jpg`,
+    email: "jon@gmail.com",
+    status: "active",
+    transaction: "$140.00",
+  },
+];
